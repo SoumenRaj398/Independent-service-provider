@@ -1,0 +1,14 @@
+
+.service-title{
+    text-align: center;
+    color: brown;
+
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid violet;
+    grid-gap: 30px;
+
+}
