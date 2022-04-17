@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
         
-        <Navbar bg="primary" sticky="top" variant="light ">
+        <Navbar bg="dark" sticky="top" variant="dark ">
             <Container>
             <Navbar.Brand as ={Link} to="/">
                 <img src={logo} height ="50" alt =" " />
