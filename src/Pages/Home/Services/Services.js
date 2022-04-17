@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 import Service from '../Service/Service';
 import "./Services.css";
 
@@ -14,7 +15,7 @@ const Services = () => {
 
    
     return (
-        <div>
+        <div id ="services">
             <h1 className='service-title mt-5 mb-5'>Our Services</h1>
             <div className='services-container'>
             {
@@ -26,7 +27,7 @@ const Services = () => {
             }
             </div>
 
-            
+            <Button className='text-center'>Click it for Booking</Button>
             
         </div>
     );
