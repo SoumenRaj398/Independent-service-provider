@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword,} from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import "./Register.css"
 import auth from "../../../firebase.init";
@@ -11,7 +11,9 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
+
+    //   const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
 
 
@@ -30,6 +32,7 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
+       
 
 
         createUserWithEmailAndPassword(email,password);
