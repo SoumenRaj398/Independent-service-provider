@@ -17,7 +17,7 @@ const clients =  [
 const Clients = () => {
     return (
         <div id="clients">
-            <h1 className='clients-title mt-5 mb-5'>Our Successful Clients </h1>
+            <h1 className='clients-title mt-5 mb-5 text-danger'>Successful Clients </h1>
             <div className='clients-container'>
             {
                     clients.map(client => <Client
