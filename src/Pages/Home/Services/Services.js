@@ -27,7 +27,7 @@ const Services = () => {
             }
             </div>
 
-            <Button className='text-center'>Click it for Booking</Button>
+            
             
         </div>
     );

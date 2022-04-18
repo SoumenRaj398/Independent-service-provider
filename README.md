@@ -1,7 +1,7 @@
 Soumen Mollick
 # React-Visa-Agency
 
-the site live link is (https://the-memory-maker.web.app).
+the site live link is (https://gleeful-tulumba-b76109.netlify.app/).
 
 ## In this project
 here use bootstrap, react bootstrap to responsive the te site.
